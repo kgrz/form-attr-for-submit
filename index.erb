@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Test</title>
+  </head>
+  <body>
+    <form action="/accept" method="post" accept-charset="utf-8" id="accept-form">
+      <label for="accepted-input">
+      </label>
+      <input type="text" name="accepted" value="accepted" id="accepted-input">
+    </form>
+
+    <form action="/reject" method="post" accept-charset="utf-8" id="reject-form">
+      <label for="reject-input">
+      </label>
+      <input type="text" name="rejected" value="rejected" id="rejected-input">
+    </form>
+
+    <p><input type="submit" value="Accept →" form='accept-form'></p>
+    <p><input type="submit" value="Reject →" form='reject-form'></p>
+  </body>
+</html>
